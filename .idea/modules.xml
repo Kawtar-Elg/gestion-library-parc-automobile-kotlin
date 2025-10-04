@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CarParkManagement_Kotlin/CarParkManagement_Kotlin.iml" filepath="$PROJECT_DIR$/CarParkManagement_Kotlin/CarParkManagement_Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManagement_Kotlin/LibraryManagement_Kotlin.iml" filepath="$PROJECT_DIR$/LibraryManagement_Kotlin/LibraryManagement_Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Systeme-de-Gestion-de-Bibliotheque.iml" filepath="$PROJECT_DIR$/.idea/Systeme-de-Gestion-de-Bibliotheque.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+interface Affichable {
+    fun afficherInfos()
+}
