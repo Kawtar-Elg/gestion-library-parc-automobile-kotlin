@@ -1,10 +1,10 @@
 fun main() {
-    val livre1 = Livre("Le Petit Prince", "Antoine de Saint-Exupéry", "978-3-16-148410-0", 3)
-    val livre2 = Livre("1984", "George Orwell", "978-0-452-28423-4", 2)
-    val livre3 = Livre("Harry Potter", "J.K. Rowling", "978-0-7475-3269-9", 1)
+    val livre1 = Livre("Le Pain Nu", "Mohamed Choukri", "978-3-16-148410-0", 3)
+    val livre2 = Livre("La Boîte à Merveilles", "Ahmed Sefrioui", "978-0-452-28423-4", 2)
+    val livre3 = Livre("Le Jardin de Badal", "Driss Chraïbi", "978-0-7475-3269-9", 1)
 
-    val user1 = Utilisateur("Dupont", "Marie", "marie.dupont@email.com", 101)
-    val user2 = Utilisateur("Martin", "Luc", "luc.martin@email.com", 102)
+    val user1 = Utilisateur("El Amrani", "Salma", "salma.elamrani@email.com", 101)
+    val user2 = Utilisateur("El Mansouri", "Hamza", "hamza.elmansouri@email.com", 102)
 
     val bibliotheque = Bibliotheque()
     bibliotheque.ajouterLivre(livre1)
