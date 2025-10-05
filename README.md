@@ -2,11 +2,18 @@
 
 # Gestion Library & Parc Automobile (Kotlin)
 
+
 Un système de gestion combinée : **bibliothèque + parc automobile** écrit en **Kotlin**.  
 Ce projet sert principalement à démontrer des concepts de **programmation orientée objet (POO)**  
 comme l’**héritage**, le **polymorphisme**, et la **gestion des exceptions**.
 
 </div>
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+</p>
+
 
 **Bibliothèque**
 - Ajout / suppression / recherche de livres  
