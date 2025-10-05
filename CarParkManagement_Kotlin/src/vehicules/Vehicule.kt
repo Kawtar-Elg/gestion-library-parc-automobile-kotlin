@@ -1,13 +1,10 @@
-abstract class Vehicule(
-    val immatriculation: String,
-    val marque: String,
-    val modele: String,
-    var kilometrage: Int,
-    var disponible: Boolean = true
-) {
-    open fun afficherDetails() {
-        println("Immatriculation : $immatriculation | Marque : $marque | Modèle : $modele | Kilométrage : $kilometrage km | Disponible : $disponible")
-    }
+interface Vehicule {
+    val immatriculation: String
+    val marque: String
+    val modele: String
+    var kilometrage: Int
+    var disponible: Boolean
+
 
     fun estDisponible(): Boolean = disponible
 
@@ -22,4 +19,7 @@ abstract class Vehicule(
     fun mettreAJourKilometrage(km: Int) {
         kilometrage = km
     }
+
+
+    fun afficherDetails()
 }

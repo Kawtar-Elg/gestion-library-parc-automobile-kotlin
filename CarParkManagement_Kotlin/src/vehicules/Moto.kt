@@ -1,18 +1,19 @@
 class Moto(
-    immatriculation: String,
-    marque: String,
-    modele: String,
-    kilometrage: Int,
-    disponible: Boolean = true,
+    override val immatriculation: String,
+    override val marque: String,
+    override val modele: String,
+    override var kilometrage: Int,
+    override var disponible: Boolean = true,
     val cylindree: Int
-) : Vehicule(immatriculation, marque, modele, kilometrage, disponible) {
+) : Vehicule {
 
     override fun afficherDetails() {
-        println("Moto - Immatriculation : $immatriculation " +
-                "\nMarque : $marque " +
-                "\nModèle : $modele " +
-                "\nCylindrée : ${cylindree}cm³ " +
-                "\nKilométrage : $kilometrage km " +
-                "\nDisponible : $disponible")
+        println("Moto - Immatriculation :" +
+                " \n$immatriculation " +
+                " \nMarque : $marque " +
+                " \nModèle : $modele  " +
+                " \nCylindrée : ${cylindree}cm³ " +
+                " \nKilométrage : $kilometrage km" +
+                " \nDisponible : $disponible")
     }
 }
