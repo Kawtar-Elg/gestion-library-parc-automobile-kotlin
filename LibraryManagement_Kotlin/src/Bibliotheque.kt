@@ -1,4 +1,7 @@
-class Bibliotheque : GestionBibliotheque() {
+class Bibliotheque : GestionBibliotheque {
+
+    private val utilisateurs: MutableList<Utilisateur> = mutableListOf()
+    private val livres: MutableList<Livre> = mutableListOf()
 
     override fun ajouterUtilisateur(utilisateur: Utilisateur) {
         utilisateurs.add(utilisateur)
@@ -15,8 +18,19 @@ class Bibliotheque : GestionBibliotheque() {
         if (livres.isEmpty()) {
             println("Aucun livre dans la bibliothèque.")
         } else {
-            livres.forEach { it.afficherInfos() }
+
+            for (livre in livres) {
+                livre.afficherInfos()
+            }
         }
     }
 
+    fun rechercherLivreParTitre(titre: String): Livre? {
+        for (livre in livres) {
+            if (livre.titre.equals(titre, ignoreCase = true)) {
+                return livre
+            }
+        }
+        return null // Pas trouvé
+    }
 }
